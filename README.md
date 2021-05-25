@@ -1,22 +1,19 @@
-"# Dental-Practice-Database-Project" 
-
+# Dental-Practice-Database-Project
 Database Design and Development Database Project 2020
 
-Database Implementation
-
+# Database Implementation
 The full database can be implemented in the following order:
 
-1. Dental Practice Database Creation Script.sql
-should be imported first. This creates the basic tables and relations.
-2. Dental Practice Data Insertion Script.sql
-should be imported second. This populates the tables
-with some user data.
-3. Dental Practice query Insertion Script.sql
-is the last to be imported. This script adds the queries and also creates
-two views.
+1.  Dental Practice Database Creation Script.sql
+    should be imported first. This creates the basic tables and relations.
+2.  Dental Practice Data Insertion Script.sql
+    should be imported second. This populates the tables
+    with some user data.
+3.  Dental Practice query Insertion Script.sql
+    is the last to be imported. This script adds the queries and also creates
+    two views.
 
-Database Presentation
-
+# Database Presentation
 The database is comprised of the following tables and views:
 Patient Chart - this table stores the patien information such as name, address, contact details.
 Appointment Diary - this table stores appointment details like treatment, date, time and cancellations.
@@ -28,8 +25,7 @@ Patient Appointment - a view that centralises all the appointments and patient i
 Patient Bill - a view that shows all the outstanding bills and bill information for the patients.
 Patient History - a view that show all the patient records.
 
-Operation and Queries
-
+# Operation and Queries
 The main focus when using the database will be on the three views. The Patient Appointment view can be used to schedule
 appointments and send out appointment cards that contain appointment date and treatment information. The Patient Bill
 view holds the visit card information, bill and outstanding amounts. It can be used to check and generate invoices. The
